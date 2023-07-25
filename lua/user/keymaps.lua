@@ -26,10 +26,10 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- code navigation
-keymap("n", "<leader>gtd", "<Plug>(coc-definition)", opts)
-keymap("n", "<leader>gtt", "<Plug>(coc-type-definition)", opts)
-keymap("n", "<leader>gti", "<Plug>(coc-implementation)", opts)
-keymap("n", "<leader>gtr", "<Plug>(coc-references)", opts)
+-- keymap("n", "<leader>gtd", "<Plug>(coc-definition)", opts)
+-- keymap("n", "<leader>gtt", "<Plug>(coc-type-definition)", opts)
+-- keymap("n", "<leader>gti", "<Plug>(coc-implementation)", opts)
+-- keymap("n", "<leader>gtr", "<Plug>(coc-references)", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
